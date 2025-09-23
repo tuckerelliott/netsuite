@@ -34,7 +34,7 @@ main .carousel > div {
   scroll-snap-align: start;
   position: relative;
   min-height: 580px;
-  align-items: flex-end;
+  /* align-items: flex-end; */
   display: flex;
 }
 
@@ -45,11 +45,32 @@ main .carousel div.carousel-text {
   color: white;
   min-height: 188px;
   padding: 0 28px;
+  width: 40%;
 }
 
 main .carousel div.carousel-text p {
   margin: 10px 0 16px;
   line-height: 1.2;
+}
+
+main .carousel div.carousel-text a.button:any-link, button {
+    font-family: var(--body-font-family);
+    display: inline-block;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: 2px solid transparent;
+    padding: 5px 30px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+    color: #000;
+    background-color: #FFF;
+    margin: 16px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border-radius: 2px;
 }
 
 main .carousel div.carousel-text h2 {
