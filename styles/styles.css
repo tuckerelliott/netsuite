@@ -186,7 +186,7 @@ button {
   padding: 5px 30px;
   text-align: center;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 300;
   cursor: pointer;
   color: var(--background-color);
   background-color: var(--link-color);
@@ -194,7 +194,7 @@ button {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  border-radius: 30px;
+  border-radius: 3px;
 }
 
 a.button:hover,

@@ -72,7 +72,7 @@
   border: 1px solid gray;
 }
 .cards > ul > li img {
-  aspect-ratio: 1 / 1;
+  aspect-ratio: 2 / 1;
 }
 
 .cards.across .cards-card-image { grid-area: image; }
